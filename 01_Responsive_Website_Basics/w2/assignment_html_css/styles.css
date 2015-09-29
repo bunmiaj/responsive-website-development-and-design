@@ -1,0 +1,22 @@
+h1 {						/* modify h1 tag */
+	font-family:monospace;		/* use the monospace font family */
+	color: green;				/* text color to green */
+	font-size: 18pt;			/* font size */
+	margin: 10px;				/* sets 10 px to all margins */
+}	
+
+@media (min-width: 500px){	/* if the window has at least 500 px */
+	h1 {						/* modify h1 tag */
+		color:blue;					/* set the text color to blue */
+		font-size: 28pt;			/* set the font size to 28 points */
+		margin: 40px;				/* set all margins to 40px */
+	}
+}
+
+@media (min-width: 750px){	/* if the window has at least 750 px */
+	h1 {						/* modify h1 tag */
+		color:red;					/* set the text color to red */
+		font-size: 38pt;			/* set the font size to 38 points */
+		margin: 80px;				/* set all margins to 80px */
+	}
+}
