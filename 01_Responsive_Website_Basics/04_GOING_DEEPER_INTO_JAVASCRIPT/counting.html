@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Counting</title>
+		<!-- to use jQuery we need to import it like this -->
+		<script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<h1 id="number" onclick="count();"></h1>	
+	</body>
+
+	<script type="text/javascript">
+		var counter = 0;
+		$("#number").html(counter);
+
+		function count(){
+			counter = counter + 1;
+			$("#number").html(counter);
+		}
+
+	</script>
+</html>
